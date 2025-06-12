@@ -21,8 +21,8 @@
 title: Papers
 email: claudius.kienle@robot-learning.de
 
-url: https://claudius-kienle.github.io
-baseurl: papers
+# url: https://claudius-kienle.github.io
+# baseurl: papers
 
 # Build settings
 theme: minima
