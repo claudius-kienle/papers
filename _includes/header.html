@@ -19,15 +19,14 @@
                     More Research
                 </a>
                 <div class="navbar-dropdown">
-                    <a class="navbar-item" href="https://claudius-kienle.github.io/querycad">
-                        QueryCAD
+                    {% for item in site.data.pages %}
+                    {% if item.path contains '/p/' %}
+                    <a class="navbar-item {% if page.url contains item.path %}is-active{% endif %}"
+                        href="{{ item.path | relative_url }}">
+                        {{ item.title }}
                     </a>
-                    <a class="navbar-item" href="https://claudius-kienle.github.io/spi-dp-paper">
-                        SPI-DP
-                    </a>
-                    <a class="navbar-item" href="https://claudius-kienle.github.io/AppMuTT/">
-                        AppMuTT
-                    </a>
+                    {% endif %}
+                    {% endfor %}
                 </div>
             </div>
         </div>

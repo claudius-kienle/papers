@@ -3,23 +3,23 @@ layout: default
 title: "AI-based Framework for Robust Model-Based Connector Mating in Robotic Wire Harness Installation"
 authors:
   - id: claudius_kienle
-    aff: [1,2,"&dagger;"]
+    aff: [1,4,"&dagger;"]
   - id: benjamin_alt
-    aff: [1,3,"&dagger;"]
+    aff: [2,4,"&dagger;"]
   - id: finn_schneider
-    aff: [1,4]
+    aff: [3,4]
   - id: tobias_pertlwieser
-    aff: [4]
+    aff: [3]
   - id: rainer_jaekel
-    aff: [1]
-  - id: rania_rayyes
     aff: [4]
+  - id: rania_rayyes
+    aff: [3]
 aff:
-  1: ArtiMinds
-  2: IAS
-  3: AICOR
-  4: IFL
-  "&dagger;": "Equal contribution"
+  1: IAS
+  2: AICOR
+  3: IFL
+  4: ArtiMinds
+  "&dagger;": "Authors contributed equally to this paper"
 links:
   arxiv-id: "2503.09409"
   video: https://youtu.be/Enpk2MVnIac

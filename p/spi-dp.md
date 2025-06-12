@@ -6,9 +6,9 @@ authors:
   - id: benjamin_alt
     aff: [1,2,"*"]
   - id: claudius_kienle
-    aff: [1,"*"]
+    aff: [1,3,"*"]
   - id: darko_katic
-    aff: [1]
+    aff: [1,4]
   - id: rainer_jaekel
     aff: [1]
   - id: michael_beetz
@@ -16,6 +16,8 @@ authors:
 aff:
   1: ArtiMinds
   2: AICOR
+  3: IAS
+  4: Stuttgart-HFT
   "*": Authors contributed equally to this paper
 links:
   arxiv-id: "2409.08678"
