@@ -6,6 +6,8 @@ platforms = ["linux-64"]
 version = "0.1.0"
 
 [tasks]
+serve = { cmd = ["jekyll", "serve"]}
+deploy = { cmd = ["jekyll", "build"]}
 
 [dependencies]
 ruby = ">=3.4.4,<4"
